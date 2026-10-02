@@ -1,23 +1,65 @@
-
+{% load static %}
 <!DOCTYPE html>
-<html> <!--contiene el documento.-->
+<html>
 
-<head> <!--informacion de la pagina.--> 
-    <title>EstudiaYa</title> <!--Titulo de la pestaña en el navegador.-->
+<head>
+    <title>EstudiaYa</title>
+    <link rel="stylesheet" href="{% static 'EstudiaYa_web/estilos.css' %}">
 </head>
 
-<body> <!--contenido visible--> 
-    <header> <!--encabezado de la pagina.--> 
-        <h1>Estudia Ya</h1><!--titulo del encabezado.-->
-        <!--parrafo-->
+<body>
+
+    <header>
+        <h1>Estudia Ya</h1>
         <p>Sistema para mantener orden en las actividades escolares.</p>
     </header>
 
-<nav> <!--Enlaces de navegacion o menu-->
-    <a href="/Inicio/">Inicio</a>
-    <a href="/Calendario/">Calendario</a>
-    <a href="/Avisos/">Avisos</a>
-    <a href="/Plan de estudio/">Plan de estudio</a>
-</nav>
+    <nav>
+        <a href="/Inicio/">Inicio</a>
+        <a href="/Calendario/">Calendario</a>
+        <a href="/Avisos/">Avisos</a>
+        <a href="/Contacto/">Contacto</a>
+    </nav>
 
-<main></main>
+    <main>
+
+        <section>
+            <h2>Bienvenido a Estudia Ya</h2>
+            <p>
+                Organiza tus actividades escolares y mantente al día
+                con tus tareas, exámenes y proyectos.
+            </p>
+        </section>
+
+        <section>
+            <h2>Próximas actividades</h2>
+
+            <div class="aviso">
+                <p><strong>Tarea:</strong> Entregar actividad pendiente.</p>
+            </div>
+
+            <div class="aviso">
+                <p><strong>Examen:</strong> Próximamente tendrás un examen.</p>
+            </div>
+
+            <div class="aviso">
+                <p><strong>Proyecto:</strong> Recuerda revisar la fecha de entrega.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Organiza tus estudios</h2>
+            <p>
+                Consulta el calendario y los avisos para saber con anticipación
+                qué actividades tienes que realizar.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Estudia Ya - Organiza tus actividades escolares</p>
+    </footer>
+<img src="https://st2.depositphotos.com/2945617/8585/v/450/depositphotos_85856012-stock-illustration-school-building-cartoon.jpg"alt=""
+</body>
+</html>

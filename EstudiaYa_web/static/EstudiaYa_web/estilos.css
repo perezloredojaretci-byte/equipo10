@@ -1,0 +1,46 @@
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #315c8c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #23466d;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+        }
+
+        section {
+            background-color: white;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #315c8c;
+        }
+
+        .aviso {
+            background-color: #eef5ff;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: #23466d;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+  
