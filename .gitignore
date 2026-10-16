@@ -1,8 +1,9 @@
 #Python
-_pycache_/
-*-pyc
+__pycache__/
+*.PY[cod]
 
 #Django
+
 db.sqlite3
 
 #Entornos virtuales
