@@ -7,24 +7,24 @@
             background-color: #315c8c;
             color: white;
             text-align: center;
-            padding: 20px;
+            padding: 70px;
         }
 
         nav {
             background-color: #23466d;
             text-align: center;
-            padding: 10px;
+            padding: 50px;
         }
 
         nav a {
             color: white;
-            margin: 10px;
+            margin: 50px;
         }
 
         section {
             background-color: white;
-            margin: 20px;
-            padding: 20px;
+            margin: 60px;
+            padding: 60px;
         }
 
         h2 {
@@ -32,15 +32,15 @@
         }
 
         .aviso {
-            background-color: #eef5ff;
-            padding: 10px;
-            margin: 10px;
-        }
+    background-color: #eef5ff;
+    padding: 50px;
+    margin: 50px;
+}
 
         footer {
             background-color: #23466d;
             color: white;
             text-align: center;
-            padding: 15px;
+            padding: 55px;
         }
   
